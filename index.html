@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/global.css">
+    <script type="text/javascript" src="/assets/main.js" defer></script>
+    <title>Jeu du morpion</title>
+</head>
+<body>
+    <table>
+        <caption>
+            Caption
+        </caption>
+        <thead>
+            <tr rowspan="3">
+                <th class="title">
+                    Table head
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+            </tr>
+            <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="game--status"></h2>
+    <button class="game--restart">Restart Game</button>
+
+    <svg>
+        Cercle
+        <circle cx="50px" cy="50px" r="50px" fill="none" stroke="blue" stroke-width="3"></circle>
+        Croix
+        <path d="M0 10 L 50 50" stroke="red" stroke-width="3"></path>
+        <path d="M100 0 L 0 50" stroke="red" stroke-width="3"></path>
+    </svg>
+</body>
+</html>

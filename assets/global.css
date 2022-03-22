@@ -1,0 +1,23 @@
+table{
+    border: 1px solid black;
+    margin:auto;
+    text-align:center;
+}
+.title{
+    text-align: center;
+    margin:auto;
+    display:inline-block;
+}
+table tr{
+    border: 1px solid black;
+
+}
+table td th{ 
+    border: 1px solid black;
+}
+tbody td{
+    border: 1px solid black;
+    width:8rem;
+    height:8rem;
+    background-color: #FFFF;
+}
